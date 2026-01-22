@@ -7,10 +7,12 @@ def main():
 
 def pounds_to_float(d):
     poundsvalue = float(d.replace ("£",""))
+    return poundsvalue
 
 def percent_to_float(p):
     
     percentvalue = float(p.replace ("%", ""))
     decimal = float(percentvalue/100)
+    return decimal
 
 main()
