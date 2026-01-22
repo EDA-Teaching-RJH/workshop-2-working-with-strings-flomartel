@@ -1,9 +1,15 @@
-import math  
+import math
 
 def main():
-#TO DO  
+
+A = int(input(" Input a value for A: "))
+B = int(input(" Input a value for B: "))
+
 
 def pythag(A,B):
-#TO DO  
+
+
+
+
 
 main()
