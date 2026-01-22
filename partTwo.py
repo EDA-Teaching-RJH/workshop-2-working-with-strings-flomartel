@@ -7,6 +7,7 @@ def main():
 
 
 def pythag(A,B):
+    C = math.sqrt(A**2 + B**2)
 
 
 
