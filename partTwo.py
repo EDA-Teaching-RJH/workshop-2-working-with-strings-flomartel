@@ -1,12 +1,15 @@
 import math
 
 def main():
-    A = int(input("Input a value for A: "))
-    B = int(input("Input a value for B: "))
-    C = pythag(A,B)
+    A = int(input("Input a value for side A: ")) #asks user for A value
+    B = int(input("Input a value for side B: ")) #asks user for B value
+    C = pythag(A,B) #this is C value
+
+    print("The hypotenuse is", C) #prints C value
+
 
 def pythag(A,B):
-    print( math.sqrt(A**2 + B**2))
+    return math.sqrt(A**2 + B**2) #calculates C value
 
 
 main()
