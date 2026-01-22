@@ -11,5 +11,6 @@ def pounds_to_float(d):
 def percent_to_float(p):
     
     percentvalue = float(p.replace ("%", ""))
+    decimal = float(percentvalue/100)
 
 main()
